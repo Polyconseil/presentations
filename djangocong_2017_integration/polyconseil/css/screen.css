@@ -1,5 +1,9 @@
+html {
+  font-size: 30px;
+}
+
 body {
-  font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  font: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   background: #778;
   padding: 0;
   margin: 0;
@@ -180,7 +184,7 @@ body.presenter_view div#current_presenter_notes {
     left: 50%;
     top: 50%;
     margin-left: -475px;
-    margin-top: 100px;
+    margin-top: 120px;
     z-index: 2;
     width: 950px;
     border-style: solid;
@@ -210,7 +214,6 @@ body.presenter_view div#current_presenter_notes section p {
 }
 
 body.presenter_view div#current_presenter_notes h1 {
-    font-size: 50%;
     display: block;
 }
 
@@ -225,11 +228,7 @@ div.slide div.presenter_notes, div.slides div.presenter_notes {
 /* Slide styles */
 
 div.slide p {
-  /*font-size: 20px;*/
-
-  /* Polyconseil */
   color: #555753;
-  font-size: 25px;
 }
 
 .slide.far-past {
@@ -269,7 +268,7 @@ body.three-d div.slides {
 header:not(:only-child) {
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 2rem;
   letter-spacing: -.05em;
   color: black;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
@@ -287,7 +286,7 @@ header:not(:only-child) {
 
 header h1, header h2, header h3, header h4, header h5, header h6 {
   display: inline;
-  font-size: 70%;
+  font-size: 1.5rem;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -308,7 +307,7 @@ section, .slide header:only-child h1 {
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 100px;
+  margin-top: 120px;
   display: block;
   overflow: hidden;
 }
@@ -346,8 +345,6 @@ pre, code, tt {
 }
 
 pre, .gist .gist-file .gist-data {
-  /*font-size: 18px;*/
-  font-size: 23px;
   max-height: 485px;
   padding-top: 0.25em !important;
   padding-right: 0.5em !important;
@@ -372,12 +369,10 @@ blockquote {
   border-left: solid 8px #778;
   padding: .1ex 1ex;
   font-style: italic;
-  font-size: 20px;
 }
 
 li {
   padding: 10px 0;
-  font-size: 20px;
 }
 
 li pre { margin-left: 0em; }
@@ -389,8 +384,8 @@ li pre { margin-left: 0em; }
   vertical-align: middle;
   height: 700px;
   width: 900px;
-  font-size: 50px;
-  margin-top:100px;
+  font-size: 2rem;
+  margin-top:120px;
   margin-bottom:100px;
 }
 
@@ -490,7 +485,7 @@ aside {
   -webkit-border-radius: 10px;
 }
   div.slide p.notes {
-    font-size: 90%;
+    font-size: 0.5rem;
 }
 
 /* Pygments default theme */
